@@ -8,7 +8,7 @@ class VideoLink extends Component {
     return (
       <div className="video-container">
         <Link to="/video">
-          <p>Video about becoming a member</p>
+          <p>Membership Demo</p>
           <img
             className="play-button"
             src={Play}
