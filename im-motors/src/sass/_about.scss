@@ -50,16 +50,16 @@ $fontfamily: "Kanit", sans-serif;
     @include small-tablet {
       margin-top: 70px;
     }
+  }
+  #description {
     @include tablet {
       margin-top: 150px;
     }
   }
-
   .form-container {
     width: 90%;
     padding: 1em;
     box-shadow: 1px 1px 20px darkgray;
-    // margin: 1em;
     margin: 20px auto;
 
     @include tablet {
@@ -69,6 +69,9 @@ $fontfamily: "Kanit", sans-serif;
       width: 100%;
       margin: 30px 0;
       grid-area: form;
+    }
+    form {
+      padding: 1em;
     }
     .submit-button-container {
       width: 250px;
@@ -110,7 +113,7 @@ $fontfamily: "Kanit", sans-serif;
       }
       @include desktop {
         width: 90%;
-        margin-top: 80px;
+        margin-top: 2em;
       }
       .fa,
       .fas {
